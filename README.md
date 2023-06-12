@@ -28,6 +28,8 @@ const main = async () => {
 main();
 ```
 
+![アニメーション例](image-animation.gif)
+
 ## License
 
 This is under MIT license.
