@@ -15,11 +15,11 @@ npm i @akahoshi1421/image-animation
 const imgSrc = "computer.png";
 
 //target dom
-const target = document.querySelector(".result");
+const target: HTMLElement = document.querySelector(".result")!;
 
 const main = async () => {
     //src, dst, fadein or fadeout
-  anime = await ImageAnime.init(imgSrc, target, "in");
+  const anime = await ImageAnime.init(imgSrc, target, "in");
 
   //run fadeAnime
   anime.randomFadeAnime(5);

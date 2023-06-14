@@ -1,6 +1,6 @@
 {
   "name": "@akahoshi1421/image-animation",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "image animation npm package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
