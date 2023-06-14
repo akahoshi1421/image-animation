@@ -11,8 +11,8 @@ npm i @akahoshi1421/image-animation
 例
 
 ```.js
-//source image file
-const imgSrc = "computer.png";
+//source image file or URL
+const imgSrc = "img/computer.png"; // http://127.0.0.1:8080/img/computer.png
 
 //target dom
 const target: HTMLElement = document.querySelector(".result")!;
